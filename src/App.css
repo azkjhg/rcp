@@ -1,0 +1,29 @@
+body {
+  background-image: url(https://imengine.public.prod.cmg.infomaker.io/?uuid=c1d3deeb-6e98-5e7e-a0c2-a3d30517b8e7&function=cropresize&type=preview&source=false&q=75&crop_w=0.99999&crop_h=0.99999&width=1500&height=844&x=1.0E-5&y=1.0E-5);
+  height: 100vh; /* view height: */
+  background-repeat: no-repeat;
+  background-size: cover; /* 배경화면 꽉 채우기*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: darkslategray;
+  color: aliceblue;
+
+  flex-direction: column;
+  display: inline-flexbox;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-box{
+  border: 1px solid wheat;
+  border-radius: 5px;
+  padding: 5px;
+  
+}
